@@ -204,7 +204,7 @@ export default function(){
 
         <label>Marital Status</label><br/>
         <select 
-            value={Gender} 
+            value={MaritalStatus} 
             required
             onChange={(e) => setMaritalStatus(e.target.value)}
             >

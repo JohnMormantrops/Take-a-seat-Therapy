@@ -51,20 +51,20 @@ export default function(){
      
     }
     
-    useEffect(() => {
-            if(currentSession.SessionNumber>0){
-                console.log("ANYTHING?")
-                setSessionDate(currentSession.SessionDate)
-                setSessionTime(currentSession.SessionTime)
-                setClients(currentSession.Clients)
-                setTherapist(currentSession.Therapist)
-                setFee(currentSession.Fee)
-                setSessionNumber(currentSession.SessionNumber)
-                setSessionAttendance(currentSession.SessionAttendance)
-                setSessionType(currentSession.SessionType)
-                setSessionNotes(currentSession.SessionNotes)
-    }
-    }, [currentSession])
+    // useEffect(() => {
+    //         if(currentSession.SessionNumber>0){
+    //             console.log("ANYTHING?")
+    //             setSessionDate(currentSession.SessionDate)
+    //             setSessionTime(currentSession.SessionTime)
+    //             setClients(currentSession.Clients)
+    //             setTherapist(currentSession.Therapist)
+    //             setFee(currentSession.Fee)
+    //             setSessionNumber(currentSession.SessionNumber)
+    //             setSessionAttendance(currentSession.SessionAttendance)
+    //             setSessionType(currentSession.SessionType)
+    //             setSessionNotes(currentSession.SessionNotes)
+    // }
+    // }, [currentSession])
  
 
     if(currentSession){
@@ -124,7 +124,7 @@ export default function(){
          <h2>Manage Therapy Session</h2>
          <h3 style={{color: "red"}}>{message}</h3>
         
-        { currentSession.SessionNumber>0 && <h4>Session Found with Session Number {currentSession.SessionNumber} Update current session or choose a different Session number</h4>}
+        { currentSession.SessionNumber>0 && <h4>Session Found with Session Number {currentSession.SessionNumber} choose a different Session number</h4>}
         
         <div className="row">
         <form>

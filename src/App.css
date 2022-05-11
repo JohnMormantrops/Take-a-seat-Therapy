@@ -1,0 +1,129 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #0c59890f;
+    width: 100vw;
+    height: 100vh;
+}
+.hey{
+    text-align: center;
+    padding: 70px;
+    width:200px;
+    height: 200px;
+    margin: 100px;
+    background-color: #00304e;
+    color:#f5a731;
+    border-radius: 50%;
+    
+}
+.del{
+    position: absolute;
+    max-width: 130px;
+    float: right;
+    right:0;
+    height: 98%;
+}
+.whatsthis{
+    height: 2000px;
+    width: 8000px;
+    background-color: #043c5f0e;
+    left: -600px;
+    top: 200px;
+    position: absolute;
+    z-index: -100000;
+    border-radius: 50%;
+    color: white;
+}
+.space{
+    align-items: center;
+    justify-content: center;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    color:#f5a731;
+    background-color: #00304e;
+}
+.title{
+
+}
+div{
+    /* background-color: #00304e; */
+    
+}
+.smile{
+    transform: rotate(90deg);
+}
+p{ 
+    width:100%;
+    /* background-color: #f5a731; */
+    margin: 30px;
+    margin-right: 50px;
+}
+label{
+    margin-left: 20px;
+}
+input{
+    width: 80%;
+    margin-left: 20px;
+    max-width: 250px;
+    background-color: rgba(255, 255, 255, 0.63);
+}
+select{
+    width: 80%;
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.63);
+
+}
+textarea{
+    width: 80%;
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.63);
+
+}
+button{
+    all: unset;
+    width: 80%;
+    margin-left: 20px;
+    margin-right: 0px;
+    max-width: 250px;
+    border: solid;
+    cursor:pointer;
+    border-color: #3134f57a;   
+}
+button:hover{
+    color:#f5a731; 
+    background-color: #00304e;
+}
+
+.row{
+    position: relative;
+    display: flex;
+    text-align: left;
+    align-items: left;
+    background-color:  #3134f513;
+    margin: 20px;
+    width: 90%;
+    border: solid;
+    max-width: 750px;;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.33);
+  }
+
+.links{
+    text-decoration: none;
+    width: 20%;
+    height: 15%;
+    padding: 3px;
+    margin: 20px;
+    font-size: medium;
+    color: #f5a731;   
+}
+.links:hover{
+    color:#00304e;
+    background-color: #f5a731;
+    border-radius: 15px;
+}
+/* #f5a731 */
+/*# 2F4858 */
+/* white writing? */
